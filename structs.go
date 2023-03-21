@@ -299,6 +299,7 @@ type EventDataGeneral struct {
 	TargetID     string      `json:"target_id"`
 	AuthorID     string      `json:"author_id"`
 	Content      string      `json:"content"`
+	RawContent   string      `json:"raw_content"`
 	MsgID        string      `json:"msg_id"`
 	MsgTimestamp int64       `json:"msg_timestamp"`
 	Nonce        string      `json:"nonce"`
