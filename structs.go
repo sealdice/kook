@@ -372,6 +372,7 @@ func (e *EmojiItem) Convert() string {
 type ChannelMessage struct {
 	MsgID       string   `json:"msg_id"`
 	Content     string   `json:"content"`
+	RawContent  string   `json:"raw_content"`
 	ContentID   string   `json:"content_id"`
 	Mention     []string `json:"mention"`
 	MentionAll  bool     `json:"mention_all"`
